@@ -10,4 +10,17 @@
     <string name="textHerausforderung">Ausbildungsberufe verändern sich schnell und auf vielfältige Art und Weise. Auch IT-ferne Berufe erfordern mittlerweile ein Grundverständnis für die Digitalisierung. Deshalb müssen Schülerinnen und Schüler bereits heute fachliche Inhalte erlernen, die ihre Arbeit in der Zukunft maßgeblich beeinflussen werden. Und mehr noch als die fachlichen Inhalte, die den jeweiligen Beruf prägen, müssen sie Kompetenzen entwickeln, die sie auf lebenslanges Lernen und die stetigen Veränderungen der Berufsbilder und Arbeitsumfelder vorbereiten.</string>
     <string name="textUebersicht">Begleiten Sie uns zu unseren Unterrichtsbeispielen.</string>
     <string name="textHolzspiel">Begleiten Sie uns zu unseren Unterrichtsbeispielen.</string>
+    <string name="measurement_length1_title">Länge 1</string>
+    <string name="measurement_length2_title">Länge 2</string>
+    <string name="measurement_length3_title">Länge 3</string>
+    <string name="measurement_width1_title">Breite 1</string>
+    <string name="measurement_width2_title">Breite 2</string>
+    <string name="measurement_width3_title">Breite 3</string>
+    <string name="measurement_height1_title">Höhe 1</string>
+    <string name="measurement_heigh2_title">Höhe 2</string>
+    <string name="measurement_height3_title">Höhe 3</string>
+    <string name="measurement_sendInputs">Daten abschicken</string>
+    <string name="measurement_show3D">3D Modell anzeigen</string>
+    <string name="measurement_title">Steckverbinder: Dateneingabe</string>
+
 </resources>
