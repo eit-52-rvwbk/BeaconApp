@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.widget.TextView;
+import android.widget.*;
 
 import com.estimote.sdk.Beacon;
 import com.estimote.sdk.BeaconManager;
@@ -94,6 +94,16 @@ public class MainActivity extends AppCompatActivity {
                                     Log.i("Test", "Hallo4");
                                     actualActivity = "forthStop";
                                     startActivity(intent4);
+                                }
+                                break;
+                            }
+
+                            if(places.equals("Beacon6")) {
+                                if(actualActivity != "sixthStop") {
+                                    Intent intent6 = new Intent(activity, AndroidStackViewActivity.class);
+                                    Log.i("Test", "Hallo6");
+                                    actualActivity = "sixthStop";
+                                    startActivity(intent6);
                                 }
                                 break;
                             }
