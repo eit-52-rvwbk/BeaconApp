@@ -88,11 +88,21 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             }
 
-                            if(places.equals("Beacon5")) {
+                            if(places.equals("Beacon4")) {
                                 if(actualActivity != "forthStop") {
                                     Intent intent4 = new Intent(activity, PickByLight.class);
                                     Log.i("Test", "Hallo4");
                                     actualActivity = "forthStop";
+                                    startActivity(intent4);
+                                }
+                                break;
+                            }
+
+                            if(places.equals("Beacon5")) {
+                                if(actualActivity != "fifthStop") {
+                                    Intent intent4 = new Intent(activity, PickByLight.class);
+                                    Log.i("Test", "Hallo5");
+                                    actualActivity = "fifthStop";
                                     startActivity(intent4);
                                 }
                                 break;
