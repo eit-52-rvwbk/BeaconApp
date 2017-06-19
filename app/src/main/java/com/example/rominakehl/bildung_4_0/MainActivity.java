@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
 
                             if(places.equals("Beacon5")) {
                                 if(actualActivity != "fifthStop") {
-                                    Intent intent4 = new Intent(activity, PickByLight.class);
+                                    Intent intent4 = new Intent(activity, com.stundentcomments.stundentcomment.StudentCommentActivity.class);
                                     Log.i("Test", "Hallo5");
                                     actualActivity = "fifthStop";
                                     startActivity(intent4);
