@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                             if(places.equals("Beacon6")) {
                                 if(actualActivity != "sixthStop") {
                                     Intent intent6 = new Intent(activity, AndroidStackViewActivity.class);
-                                    Log.i("Test", "Hallo6");
+                                    Log.i("Test", "Stack-View Activity started");
                                     actualActivity = "sixthStop";
                                     startActivity(intent6);
                                 }

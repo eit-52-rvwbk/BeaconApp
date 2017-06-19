@@ -12,8 +12,8 @@ public class AndroidStackViewActivity extends Activity {
     private static StackView stackView;
     private static ArrayList<StackItems> list;
 
-    private static final Integer[] icons = {R.drawable.messen, R.drawable.unterricht2,
-            R.drawable.unterricht4, R.drawable.unterricht5, R.drawable.unterricht6, R.drawable.werkstuecke, R.drawable.werkstueckundaufgabe};
+    private static final Integer[] icons = {R.drawable.measuring, R.drawable.lesson2,
+            R.drawable.lesson4, R.drawable.lesson5, R.drawable.lesson6, R.drawable.workpieces, R.drawable.workpiecesandtasks};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
