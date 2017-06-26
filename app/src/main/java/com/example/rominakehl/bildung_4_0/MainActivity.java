@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
                 beaconManager.startRanging(region);
             }
         });
-    }y
+    }
 
     @Override
     protected void onPause() {
