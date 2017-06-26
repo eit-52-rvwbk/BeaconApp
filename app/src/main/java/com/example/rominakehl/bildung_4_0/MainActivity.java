@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                             if(places.equals("Beacon2")) {
                                 if(actualActivity != "secondStop") {
                                     Intent intent2 = new Intent(activity, Einstieg_2.class);
-                                    Log.i("Test", "Hallo2");
+                                    Log.i("Test", "ViewFlipper started");
                                     actualActivity = "secondStop";
                                     startActivity(intent2);
                                 }
