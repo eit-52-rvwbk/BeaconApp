@@ -117,6 +117,33 @@ public class MainActivity extends AppCompatActivity {
                                 }
                                 break;
                             }
+                            if(places.equals("Beacon7")) {
+                                if(actualActivity != "seventhhStop") {
+                                    Intent intent6 = new Intent(activity, AndroidStackViewActivity.class);
+                                    Log.i("Test", "Stack-View Activity started");
+                                    actualActivity = "seventhStop";
+                                    startActivity(intent6);
+                                }
+                                break;
+                            }
+                            if(places.equals("Beacon8")) {
+                                if(actualActivity != "eighthStop") {
+                                    Intent intent6 = new Intent(activity, AndroidStackViewActivity.class);
+                                    Log.i("Test", "Stack-View Activity started");
+                                    actualActivity = "eighthStop";
+                                    startActivity(intent6);
+                                }
+                                break;
+                            }
+                            if(places.equals("Beacon9")) {
+                                if(actualActivity != "ninthStop") {
+                                    Intent intent6 = new Intent(activity, AndroidStackViewActivity.class);
+                                    Log.i("Test", "Stack-View Activity started");
+                                    actualActivity = "ninthStop";
+                                    startActivity(intent6);
+                                }
+                                break;
+                            }
                         }
                     }
                 }
@@ -156,6 +183,9 @@ public class MainActivity extends AppCompatActivity {
         placesByBeacons.put("9015:62082", "Beacon4");
         placesByBeacons.put("14943:36132", "Beacon5");
         placesByBeacons.put("22027:53129", "Beacon6");
+        placesByBeacons.put("62040:5975", "Beacon7");
+        placesByBeacons.put("16617:53919", "Beacon8");
+        placesByBeacons.put("47140:49207", "Beacon8");
         PLACES_BY_BEACONS = Collections.unmodifiableMap(placesByBeacons);
     }
 
