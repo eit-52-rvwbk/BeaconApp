@@ -1,4 +1,4 @@
-package com.stundentcomments.stundentcomment;
+package com.example.rominakehl.bildung_4_0;
 
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentActivity;
@@ -68,7 +68,7 @@ public class StudentCommentActivity extends FragmentActivity {
     }
 
     private void AddContent(String sText, int iId)throws Exception {
-        Content con = new Content(sText,iId);
+       Content con = new Content(sText,iId);
         if (con.isValid())
             lContent.add(con);
         else

@@ -19,8 +19,4 @@
     <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
-    <string name="comment1">Die Verbindung zwischen theoretischem Unterricht und praktischer Umsetzung ermöglicht es mir die Funktionsweise und auch die Regelung und Steuerung komplizierter Anlagen zu verstehen. Insbesondere der Einsatz von Smartphone und Tablet macht den Unterricht interessant, da diese Geräte auch im Beruf immer wichtiger werden und viele Regelungen nur noch über App gesteuert werden können.
-    </string>
-    <string name="comment2">Smartphone und Tablet gehören an vielen Stellen zum Standardwerkzeug. Sie werden auf der Baustelle auch sehr häufig eingesetzt um Bauteile zu erkennen oder Schäden zu erfassen. Im Unterricht lernen wir neue Apps und Einsatzmöglichkeiten kennen und kritisch zu bewerten, die im Berufsalltag hilfreich sein können.
-    </string>
 </resources>
