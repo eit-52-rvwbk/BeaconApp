@@ -1,20 +1,15 @@
 package com.example.rominakehl.bildung_4_0; 
  
-import org.json.JSONException; 
-import org.json.JSONObject; 
+import org.json.JSONObject;
 import android.app.Activity; 
 import android.content.ActivityNotFoundException; 
 import android.content.DialogInterface; 
 import android.content.Intent; 
 import android.net.Uri; 
-import android.support.v7.app.AlertDialog; 
-import android.support.v7.app.AppCompatActivity; 
-import android.os.Bundle; 
-import android.view.View; 
-import android.widget.Toast; 
- 
-import org.json.JSONObject; 
- 
+import android.support.v7.app.AlertDialog;
+import android.os.Bundle;
+import android.view.View;
+
 public class PickByLight extends Activity { 
  
     static final String ACTION_SCAN = "com.google.zxing.client.android.SCAN"; 
@@ -85,13 +80,13 @@ public class PickByLight extends Activity {
                 String contents = intent.getStringExtra("SCAN_RESULT"); 
                 String format = intent.getStringExtra("SCAN_RESULT_FORMAT"); 
                 try { 
-                    JSONObject jsonObject = new JSONObject(contents); 
-                    JSONObject newJSONSchenkel = jsonObject.getJSONObject("Schenkellaenge"); 
+                    JSONObject jsonObject = new JSONObject(contents);
  
-                    Intent sendData = new Intent(PickByLight.class, HIER_EURE_KLASSE_ALTA); 
-                    sendData.putExtra("transferedJson",newJSONSchenkel.toString()); 
+                    Intent sendData = new Intent(this, MeasurementActivity.class);
+                    sendData.putExtra("transferedJson", jsonObject.toString());
+                    startActivity(sendData);
  
-                } catch (JSONException e) { 
+                } catch (Exception e) {
                     e.printStackTrace(); 
                 } 
             } 
